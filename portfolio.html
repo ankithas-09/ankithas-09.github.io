@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ankitha Suresh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> 
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ankitha Suresh</h1>
+        <p class="section__text__p2">MSCS Student at UMASS Amherst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ankitha_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ankithasuresh/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ankithas-09'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="left-content">
+        <h2 class="orange-heading">About</h2>
+        <p>Hey there! 👋 I'm a Master’s student in Computer Science at UMass Amherst, and I've previously worked as a software Engineer at HPE. I navigate coding's enchanted forests, crafting algorithms and conjuring tech solutions.</p>
+        <p>My interests span from backend development and machine learning to web dev, where I blend creativity and logic to bring digital dreams to life. </p>
+        <p>When I'm not busy studying or coding, you can find me exploring the latest tech trends, cracking puzzles, or enjoying a good thriller movie.</p>
+      </div>
+      <div class="right-content">
+        <h2 class="orange-heading">Weekly Coding Stats</h2>
+        <div class="stats-container">
+            <div id="python-slider" class="slider">
+                <label for="python">Python:</label>
+                <input type="range" id="python" name="python" min="0" max="20">
+                <span id="python-hours">20</span> hours
+            </div>
+            <div id="dsa-slider" class="slider">
+                <label for="dsa">DSA:</label>
+                <input type="range" id="dsa" name="dsa" min="0" max="20">
+                <span id="dsa-hours">20</span> hours
+            </div>
+            <div id="html-css-slider" class="slider">
+                <label for="html-css">HTML and CSS:</label>
+                <input type="range" id="html-css" name="html-css" min="0" max="20">
+                <span id="html-css-hours">20</span> hours
+            </div>
+        </div>
+      </div> 
+      <div class="Education">
+        <h2 class="orange-heading">Education</h2>
+        <p>University of Massachusetts, Amherst, MA <span class="gpa-box">GPA 3.77/4</span></p>
+        <p>JSS Science and Technology University, India <span class="gpa-box">GPA 9.34/10</span></p>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="subheading">
+        <h3>Software Engineer</h3>
+      </div>
+      <ul class="experience-list">
+        <li> Developed and deployed customized Ansible modules, integrating Serviceguard seamlessly with cloud infrastructure; reducing deployment time by 40% and optimizing scalability.</li>
+        <li> Incorporated Python scripts to transform an array-based application into an application-based system, resulting in enhanced workload recovery and a remarkable 45% improvement in efficiency.</li>
+        <li> Optimized a highly efficient custom utility script to streamline pre-installation operations for Serviceguard; accomplished 85% reduction in deployment time.</li>
+        <li> Streamlined the Metrocluster monitor for Bruce Power by programming a site-specific CLI flag, eliminating the need for SSH and revolutionizing system efficiency and control;</li>
+        <li> Pioneered an automated testsuite using Ansible and Azure cloud infrastructure, validating the resilience and failover capabilities of Serviceguard;</li>
+        <li> Configured an Ansible script to provision compute resources on Azure cloud, resulting in a 65% reduction in manual provisioning time and enabling the team to scale efficiently.</li>
+      </ul>
+    
+      <div class="subheading">
+        <h3>Research and Development Engineer</h3>
+      </div>
+      <ul class="experience-list">
+        <li> Developed an automated support matrix webpage, seamlessly integrating database updates, resulting in a 40% reduction in manual data entry and ensuring accurate and up-to-date information for customers.</li>
+        <li> Designed and executed an Ansible Playbook to enhance vault support, resulting in a 50% reduction in password recovery requests and increased data security for the company.</li>
+        <li> Configured an alert system using Python and Oracle DBMS, promptly notifying users of critical failures; reduced downtime and improved overall system reliability.</li>
+        <li> Implemented a customized user interface of Serviceguard Manager, resulting in a 75% reduction in manual maintenance tasks and streamlining the process of managing serviceguard modules across nodes.</li>
+      </ul>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="project-section">
+        <div class="container">
+            <div class="project-container">
+              <div class="project-box" id="cropBox">
+                <div class="project-text">Crop Yield<br>Prediction</div>
+                <img src="./assets/crop-yield.png" alt="crop-yield">
+                <div class="project-details" id="cropDetails">
+                    <div class="skill-box">Python</div>
+                    <div class="skill-box">Numpy</div>
+                    <div class="skill-box">SkLearn</div>
+                </div>
+                <button onclick="openCropNoteBox()">Details</button>
+                <div id="cropNoteBox" class="note-box">
+                  <span class="close-btn" onclick="closeCropNoteBox()">&times;</span>
+                  <h2>Details</h2>
+                  <p>• Analysed and modelled a machine learning model to predict crop yields based on historical weather data and crop-specific features. Utilized Python, scikit-learn, and pandas to preprocess and analyze a dataset of 5 years’ worth of agricultural data.
+                  <p>• Adapted Gradient Boosting Algorithm to predict crop yield, employed feature scaling and selection techniques to improve model performance and achieved an accuracy of 91.8%.
+                  <p>• Implemented a Heroku-powered mobile app that accurately determined suitable crops and predicted yield percentages based on user-provided location data, optimizing agricultural productivity by up to 68%.</p>
+                </div>
+              </div>
+              <div class="project-box" id="carBox">
+                <div class="project-text">Car Make and Model<br>Classification</div>
+                <img src="./assets/car.png" alt="car">
+                <div class="project-details" id="carDetails">
+                    <div class="skill-box">Python</div>
+                    <div class="skill-box">Numpy</div>
+                    <div class="skill-box">TensorFlow</div>
+                    <div class="skill-box">Matplotlib</div>
+                </div> 
+                <button onclick="openCarNoteBox()">Details</button>
+                <div id="carNoteBox" class="note-box">
+                  <span class="close-btn" onclick="closeCarNoteBox()">&times;</span>
+                  <h2>Details</h2>
+                  <p>• Engineered a highly efficient machine learning model leveraging CNNs to analyze a vast dataset of car images, enabling accurate prediction of car make and model.</p>
+                  <p>• Implemented Inception-v3 model and and attained a level of precision of 92% in predicting car make and model, enabling the development of an image recognition system for automotive applications.</p>
+                </div>
+              </div>
+              <div class="project-box" id="placementBox">
+                <div class="project-text">Placement Management GUI</div>
+                <img src="./assets/placement.png" alt="placement">
+                <div class="project-details" id="placementDetails">
+                    <div class="skill-box">HTML</div>
+                    <div class="skill-box">CSS</div>
+                    <div class="skill-box">PHP</div>
+                    <div class="skill-box">MySQL</div>
+                    <div class="skill-box">Bootstrap</div>
+                    <div class="skill-box">Javascript</div>
+                </div>
+                <button onclick="openPlacementNoteBox()">Details</button>
+                <div id="placementNoteBox" class="note-box">
+                  <span class="close-btn" onclick="closePlacementNoteBox()">&times;</span>
+                  <h2>Details</h2>
+                  <p>• Enabled a user-friendly placement management GUI application to streamline the placement process for the university</p>
+                  <p>• Reduced placement process effort by 40%, resulting in higher student satisfaction and a more organized placement system.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="box-container">
+        <div class="box">
+            <h2 class="box-heading">Languages</h2>
+            <img src="assets/languages.png" alt="languages">
+            <div class="textbox">
+                <p>Java, Python, SQL, C, JavaScript, Bash, C++, MATLAB</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="box-heading">Coding Methodologies</h2>
+            <img src="assets/coding.png" alt="languages">
+            <div class="textbox">
+                <p>Test-Driven-Development, Agile, Clean Code, Useful Comments, Ability to adhere to ISO and other standards</p>
+            </div>
+        </div> 
+        <div class="box">
+            <h2 class="box-heading">Frameworks</h2>
+            <img src="assets/framework.png" alt="languages">
+            <div class="textbox">
+                <p>Ansible, Hadoop, Node.js, React.js, REST, Unittest, Pytest, MLflow, MySQL, Pandas, MangoDB</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="box-heading">Interests</h2>
+            <img src="assets/interests.png" alt="languages">
+            <div class="textbox">
+                <p>Software Engineering, Software Development, Web Development, Machine Learning, Artificial Intelligence</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="box-heading">Development</h2>
+            <img src="assets/development.png" alt="languages">
+            <div class="textbox">
+                <p>Linux, Windows, Virtual Machines, React, Numpy, MatPlotLib, Tensorflow, Git, Github, Jira, VS Code, Pycharm</p>
+            </div>
+        </div> 
+        <div class="box">
+            <h2 class="box-heading">Related Coursework</h2>
+            <img src="assets/coursework.png" alt="languages">
+            <div class="textbox">
+                <p>Algorithms in Data Science, Machine learning, Database Systems and Management, Data Structures, Design and Analysis of Algorithms, Programming in C, Object Oriented Programming with C++, Unix System Programming, Nueral Networks and Fuzzy Logic, Java and J2EE, Web Technologies</p>
+            </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ankithasures@umass.edu">ankithasures@umass.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ankithasuresh/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="about.js"></script>
+    <script src="script.js"></script>
+    <script src="project.js"></script>
+  </body>
+</html>

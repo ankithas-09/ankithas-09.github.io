@@ -6,6 +6,11 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    .right-content h2 {
+      position: absolute;
+      right: 120px;
+      bottom: -40px;
+    }
     #contact,
     #projects {
       height: fit-content;
@@ -20,6 +25,11 @@
       display: flex;
     }
     #experience,
+    .right-content h2 {
+      position: absolute;
+      right: 120px;
+      bottom: -40px;
+    }
     .experience-details-container {
       margin-top: 2rem;
     }
@@ -68,6 +78,13 @@
     .btn-container {
       flex-wrap: wrap;
     }
+
+    .right-content h2 {
+      position: absolute;
+      right: 120px;
+      bottom: -40px;
+    }
+
     .contact-info-container {
       margin: 0;
     }

@@ -28,7 +28,7 @@
   width: 20px;
   height: 20px;
   background: rgba(237, 153, 136, 0.861);
-  animation: animate 25s linear infinite;
+  animation: animate-circles 25s linear infinite;
   bottom: -150px;
 }
 
@@ -107,7 +107,7 @@
   animation-duration: 11s;
 }
 
-@keyframes animate {
+@keyframes animate-circles {
   0% {
       transform: translateY(0) rotate(0deg);
       opacity: 1;
@@ -155,7 +155,7 @@ nav,
 nav {
   font-family: serif;
   font-size: 100px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 17vh;
 }
@@ -201,7 +201,7 @@ a:hover {
 .hamburger-icon {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 24px;
   width: 30px;
   cursor: pointer;
@@ -499,10 +499,9 @@ section {
 }
 
 .project-section .container {
-  position: relative;
   margin-top: -90px;
+  margin-left: 35px;
   padding: 20px;
-  justify-content: center;
   flex: 1;
 }
 
@@ -514,7 +513,6 @@ section {
 .project-section .project-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 20px;
 }
 
@@ -741,9 +739,9 @@ section {
 	background-color: #d14b16;
 	border-radius: 15px;
 	top: -1px;
-	animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+	animation: animate-skills 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
 }
-@keyframes animate{
+@keyframes animate-skills{
 	100%{
 		width: 100%;
 	}

@@ -615,6 +615,13 @@ Experience Block CSS
   filter: alpha(opacity=40);
   font-size: 16px; }
 
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
+    font-size: 16px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 600; 
+    color: #000; 
+    text-align: left }
+
 /*=================
 07. WORK BLOCK CSS
 ===================*/

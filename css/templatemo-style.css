@@ -584,13 +584,13 @@ Experience Block CSS
   background-clip: padding-box; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label ul {
-  padding-left: 0; /* Remove default padding */
-  list-style-position: inside; /* Ensure list bullets are inside the container */
-  text-align: left; /* Align text to the left */
+  padding-left: 0; 
+  list-style-position: inside; 
+  text-align: left; 
 }
   
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label ul li {
-  margin-bottom: 10px; /* Optional: Adjust space between list items */
+  margin-bottom: 10px; 
 }
   
 

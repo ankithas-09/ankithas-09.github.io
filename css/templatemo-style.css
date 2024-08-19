@@ -896,7 +896,7 @@ textarea.form-control {
 .filled-bar-2 {
   position: absolute;
   z-index: 99;
-  width: 80%;
+  width: 85%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -905,7 +905,7 @@ textarea.form-control {
 .filled-bar-3 {
   position: absolute;
   z-index: 99;
-  width: 60%;
+  width: 90%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -914,7 +914,7 @@ textarea.form-control {
 .filled-bar-4 {
   position: absolute;
   z-index: 99;
-  width: 70%;
+  width: 80%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -923,7 +923,7 @@ textarea.form-control {
 .filled-bar-5 {
   position: absolute;
   z-index: 99;
-  width: 65%;
+  width: 85%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -932,7 +932,7 @@ textarea.form-control {
 .filled-bar-6 {
   position: absolute;
   z-index: 99;
-  width: 15%;
+  width: 70%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;

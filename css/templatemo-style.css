@@ -711,6 +711,25 @@ Experience Block CSS
   right: 10px;
 }
 
+.github-button {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  padding: 5px 10px;
+  background-color: #ddcec4;
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  z-index: 100;
+}
+
+.github-button:hover {
+  background-color: #e07823;
+}
+
+
 /*====================
 08. CONTACT BLOCK CSS
 ======================*/
@@ -893,6 +912,14 @@ textarea.form-control {
   background-color: #fff;
   border-radius: 3px;
 }
+.filled-bar-1 {
+  position: absolute;
+  z-index: 99;
+  width: 60%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
 .filled-bar-2 {
   position: absolute;
   z-index: 99;
@@ -930,6 +957,22 @@ textarea.form-control {
 }
 
 .filled-bar-6 {
+  position: absolute;
+  z-index: 99;
+  width: 75%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-7 {
+  position: absolute;
+  z-index: 99;
+  width: 60%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-8 {
   position: absolute;
   z-index: 99;
   width: 70%;

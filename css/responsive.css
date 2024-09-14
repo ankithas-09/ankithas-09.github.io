@@ -429,3 +429,34 @@
 		left: 43%;
 	}
 }
+
+/* Responsive font scaling */
+@media (min-width: 1024px) {
+	.about-contentbox h2 {
+	  font-size: 50px; /* Larger font size for wider screens */
+	}
+  
+	.about-contentbox p {
+	  font-size: 18px; /* Increase paragraph font size for larger screens */
+	}
+  }
+  
+  @media (min-width: 1440px) {
+	.about-contentbox h2 {
+	  font-size: 60px; /* Even larger for wider screens */
+	}
+  
+	.about-contentbox p {
+	  font-size: 20px; /* Increase paragraph font size accordingly */
+	}
+  }
+  
+  @media (min-width: 1920px) {
+	.about-contentbox h2 {
+	  font-size: 70px; /* Extra large font for ultra-wide screens */
+	}
+  
+	.about-contentbox p {
+	  font-size: 22px; /* Extra-large paragraph text */
+	}
+  }

@@ -47,7 +47,7 @@
         licenseKey: 'C7F41B00-5E824594-9A5EFB99-B556A3D5',
         anchors: ['homepage', 'about', 'skills', 'experience', 'projects', 'contact'],
         menu: '#nav',
-        navigation: true,
+        navigation: false,
         scrollOverflow: true,
         responsiveWidth: 768,
         responsiveHeight: 500,

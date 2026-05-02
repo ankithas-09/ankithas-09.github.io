@@ -1,424 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Ankitha Suresh – Software Engineer specializing in Backend, AI/ML, and Cloud Infrastructure. MS CS @ UMass Amherst.">
+  <meta name="author" content="Ankitha Suresh">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+  <title>Ankitha Suresh | Software Engineer</title>
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpg">
 
-    <title>Ankitha Suresh</title>
-    <link rel="icon" type="image/jpeg" href="images/favicon.jpg">
-<!--
-Elegance Template
-https://templatemo.com/tm-528-elegance
--->
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
 
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<body>
 
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-bounce">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
 
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <!-- Video Background -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="images/video-bg.mp4" type="video/mp4">
+  </video>
+  <div class="video-overlay"></div>
 
-    <link rel="stylesheet" href="css/animate.css">
+  <!-- Header -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#homepage" class="logo">Ankitha Suresh</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navigation">
+        <ul class="nav-menu" id="nav">
+          <li data-menuanchor="homepage" class="active"><a href="#homepage">Home</a></li>
+          <li data-menuanchor="about"><a href="#about">About</a></li>
+          <li data-menuanchor="skills"><a href="#skills">Skills</a></li>
+          <li data-menuanchor="experience"><a href="#experience">Experience</a></li>
+          <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
+          <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <link rel="stylesheet" href="css/templatemo-style.css">
+  <!-- Social Sidebar -->
+  <div id="social-sidebar">
+    <a href="https://www.linkedin.com/in/ankithasuresh/" target="_blank" title="LinkedIn">
+      <i class="fa fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/ankithas-09" target="_blank" title="GitHub">
+      <i class="fa fa-github"></i>
+    </a>
+    <a href="https://leetcode.com/u/Ankithas_09/" target="_blank" title="LeetCode">
+      <img src="images/leetcode.png" alt="LeetCode" class="lc-icon">
+    </a>
+  </div>
 
-    <link rel="stylesheet" href="css/responsive.css">
+  <!-- Full Page -->
+  <div id="fullpage" class="fullpage-default">
 
-    </head>
-    
-    <body>
-    
-    <div id="video">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+    <!-- ===== HOME ===== -->
+    <div class="section animated-row" data-section="homepage">
+      <div class="section-inner hero-inner">
+        <div class="hero-content">
+          <p class="hero-greeting animate" data-animate="fadeInDown">Hello, World! 👋</p>
+          <h1 class="hero-name animate" data-animate="fadeInUp">Ankitha Suresh</h1>
+          <p class="hero-role animate" data-animate="fadeInUp">
+            Software Engineer &nbsp;<span class="dot">·</span>&nbsp; Backend &amp; AI/ML &nbsp;<span class="dot">·</span>&nbsp; Cloud &amp; Infra
+          </p>
+          <p class="hero-sub animate" data-animate="fadeInUp">
+            MS CS @ UMass Amherst &nbsp;·&nbsp; Ex&nbsp;HPE &nbsp;·&nbsp; Building scalable systems &amp; AI-powered products
+          </p>
+          <div class="hero-buttons animate" data-animate="fadeInUp">
+            <a href="Ankitha_Suresh_Resume.pdf" target="_blank" class="btn btn-accent">
+              <i class="fa fa-download"></i> &nbsp;Download CV
+            </a>
+            <a href="#contact" class="btn btn-ghost" id="hire-me-btn">
+              Hire Me
+            </a>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <header id="header">
-            <div class="container-fluid">
-                <div class="navbar">
-                    <a href="#" id="logo" title="Elegance by TemplateMo">
-                        Ankitha Suresh
-                    </a>
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="homepage" class="active"><a href="#homepage">Home</a></li>
-                                    <li data-menuanchor="about"><a href="#about">About Me</a></li>
-                                    <li data-menuanchor="skills"><a href="#skills">My Skills</a></li>
-                                    <li data-menuanchor="experience"><a href="#experience">Experience</a></li>
-                                    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
-                                    <li data-menuanchor="contact"><a href="#contact">Contact Me</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+    <!-- ===== ABOUT ===== -->
+    <div class="section animated-row" data-section="about">
+      <div class="section-inner">
+        <div class="container-center">
+          <div class="section-title animate" data-animate="fadeInUp">
+            <span class="section-label">About Me</span>
+            <h2>Who Am I?</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-photo-col animate" data-animate="fadeInLeft">
+              <div class="about-photo-wrapper">
+                <img src="images/myphoto.jpg" alt="Ankitha Suresh" class="about-photo">
+              </div>
             </div>
-        </header>
-
-        <video autoplay muted loop id="myVideo">
-          <source src="images/video-bg.mp4" type="video/mp4">
-        </video>
-
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="homepage">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">Hello!</span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">I am Ankitha Suresh</h1>
-                        <p class="animate" data-animate="fadeInUp">Engineer, Innovator & Wanderlust</p>
-                        <div class="btn-container">
-                            <button
-                              class="btn btn-color-2"
-                              onclick="window.open('Ankitha_Suresh_Resume.pdf')"
-                            >
-                              Download CV
-                            </button>
-                        </div>
-                    </div>
+            <div class="about-content animate" data-animate="fadeInRight">
+              <p>
+                I'm a Software Engineer with a Master's in Computer Science from the
+                <strong>University of Massachusetts Amherst</strong> (GPA: 3.93 / 4.0).
+                I specialize in building scalable backend systems, AI/ML pipelines, and cloud infrastructure.
+              </p>
+              <p>
+                With experience at <strong>Hewlett Packard Enterprise</strong> and <strong>Headstarter</strong>,
+                I've shipped production systems that cut cluster recovery time by 98%, built RAG pipelines
+                serving 500+ daily users, and engineered event-driven architectures at 99.5% uptime.
+              </p>
+              <p>
+                Outside of work, I love solving DSA problems on LeetCode, building side projects
+                that solve real problems, and exploring new corners of the tech world.
+              </p>
+              <div class="edu-cards">
+                <div class="edu-card">
+                  <div class="edu-icon"><i class="fa fa-graduation-cap"></i></div>
+                  <div class="edu-info">
+                    <h5>M.S. Computer Science</h5>
+                    <p>University of Massachusetts, Amherst</p>
+                    <span class="edu-meta">GPA 3.93 / 4.0 &nbsp;·&nbsp; May 2025</span>
+                  </div>
                 </div>
-            </div>
-
-            <div class="section animated-row" data-section="about">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Me</span>
-                                                <h2>Who am i?</h2>
-                                                <p>Hey there! 👋 I’m a software engineer who enjoys building systems that are scalable, reliable, and efficient. My focus is on solving complex problems through automation, resilient design, and creative use of technology.</p>
-                                                <p>Curiosity fuels my work in software and DevOps, where challenges become opportunities to innovate and grow.</p>
-                                                <p>Outside of work, I carry that same explorer’s mindset; always eager to discover, connect, and improve.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/myphoto.jpg" height="250%" width="80%</" class="rounded" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="edu-card">
+                  <div class="edu-icon"><i class="fa fa-graduation-cap"></i></div>
+                  <div class="edu-info">
+                    <h5>B.E. Computer Science</h5>
+                    <p>JSS Science and Technology University, India</p>
+                    <span class="edu-meta">GPA 9.34 / 10 &nbsp;·&nbsp; May 2021</span>
+                  </div>
                 </div>
+              </div>
             </div>
-
-            <div class="section animated-row" data-section="skills">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Skills</span>
-                                <h2>What am I good at?</h2>
-                            </div>
-                            <div class="skills-row animate" data-animate="fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-2">   
-                                        <div class="skill-item">
-                                            <h6>Python</h6>
-                                            <div class="skill-bar">
-                                                <span>95%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Java</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-1"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Cloud</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Docker & Kubernetes</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-3"></div>
-                                            </div>          
-                                        </div> 
-                                        <div class="skill-item">
-                                            <h6>System Design & Microservices</h6>
-                                            <div class="skill-bar">
-                                                <span>85%</span>
-                                                <div class="filled-bar-4"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Databases</h6>
-                                            <div class="skill-bar">
-                                                <span>80%</span>
-                                                <div class="filled-bar-5"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>DevOps & CI/CD</h6>
-                                            <div class="skill-bar">
-                                                <span>85%</span>
-                                                <div class="filled-bar-6"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="experience">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span></span>
-                                <h2>Experience</h2>
-                            </div>
-                            <div class="timeline-centered">
-                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="timeline-entry-inner">
-                                       <div class="timeline-icon color-1">
-                                         <i class="fa fa-pencil"></i>
-                                       </div>
-                                       <div class="timeline-label">
-                                        <h2><a href="https://headstarter.co/" target="_blank">Headstarter</a><span> 06/2024 - 03/2026 </span></h2>
-                                          <h3>Software Engineer</h3>
-                                          <ul>
-                                          <li> Developed backend services using Node.js, PostgreSQL, Redis, and OpenAI APIs, improving API performance 40% across real-time user workflows.</li>
-                                          <li> Built and scaled real-time AI interview workflows serving 5K+ user, maintaining 99.99% availability and sub-200ms response latency in production.</li>
-                                          <li> Implemented container provisioning workflows for a code-execution platform using Docker and Kubernetes, reducing environment startup time by 40% for interactive user sessions.</li>
-                                          <li> Engineered a session service using WebSocket and Redis, supporting 500+ concurrent sessions with sub-50ms latency.</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                 </article>
-                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                   <div class="timeline-entry-inner">
-                                      <div class="timeline-icon color-1">
-                                        <i class="fa fa-pencil"></i>
-                                      </div>
-                                      <div class="timeline-label">
-                                         <h2><a href="https://www.hpe.com/us/en/home.html" target="_blank">Hewlett Packard Enterprise</a><span> 09/2021 - 07/2023 </span></h2>
-                                         <h3>Software Engineer</h3>
-                                         <ul>
-                                         <li> Enhanced Java-based cluster management service by implementing fault-tolerant and performance optimizations, achieving a 45% reduction in cluster operation latency in production systems.</li>
-                                         <li> Designed and implemented failover and recovery workflows for distributed databases and application clusters handling 10TB+ data, achieving a 20-second RTO with almost zero-data loss.</li>  
-                                         <li> Automated deployment workflows AWS, Azure, and on-prem environments using Ansible, Terraform and Kubernetes, improving system reliability by reducing deployment failures by 40%.</li> 
-                                         <li> Streamlined disaster recovery validation for clusters using Python automation, reducing validation time from 5h to 1h.</li> 
-                                         </ul>
-                                      </div>
-                                   </div>
-                                </article>
-   
-                                <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-                                   <div class="timeline-entry-inner">
-                                      <div class="timeline-icon color-2">
-                                         <i class="fa fa-pencil"></i>
-                                      </div>
-                                      <div class="timeline-label">
-                                          <h2><a href="https://www.hpe.com/us/en/home.html" target="_blank">Hewlett Packard Enterprise</a><span> 02/2021 - 08/2021 </span></h2>
-                                          <h3>Research and Development Engineer</h3>
-                                          <ul>
-                                          <li> Automated installation and cluster validation workflows using Python, reducing setup time by 90% and accelerating engineering test cycles.</li>
-                                          <li> Implemented Prometheus and Grafana dashboards for Kubernetes-based high-availability clusters, reducing failover diagnostic time by 40%.</li>  
-                                          <li> Improved disaster recovery validation automation across 50+ distributed clusters by parallelizing validation workflows, increasing failover readiness validation by 5x and reducing MTTR by 60%.</li>  
-                                          </ul>
-                                      </div>
-                                   </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="projects">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Work</span>
-                                <h2>what have I done?</h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-7.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>
-                                                    ZenMood 
-                                                    <a href="https://github.com/ankithas-09/ZenMode" target="_blank" class="github-button">GitHub</a>
-                                                </h4>
-                                                <p>MoodFeed is a feature that allows users to select their current mood, and based on that mood, view videos that align with their emotional state. This feature integrates seamlessly with an Instagram-like app, offering users a dynamic and personalized video experience.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-6.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>
-                                                    Algocards 
-                                                    <a href="https://github.com/ankithas-09/Algocards" target="_blank" class="github-button">GitHub</a>
-                                                </h4>
-                                                <p>Algocards is an AI-powered tool that generates flashcards for mastering Data Structures and Algorithms (DSA). It offers three sets: Basic DSA, Algorithms, and Advanced DSA, along with assessments to test user knowledge. Built with Next.js and React, Algocards provides an interactive learning experience for DSA enthusiasts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>
-                                                    Crop Yield Prediction
-                                                    <a href="https://github.com/ankithas-09/Crop-Yield-Prediction" target="_blank" class="github-button">GitHub</a>
-                                                </h4>
-                                                <p>Used Python, scikit-learn, and pandas to analyze a 5-year agricultural dataset. By adapting the Gradient Boosting Algorithm and employing feature scaling and selection techniques, I achieved a 91.8% accuracy in predicting crop yields. Additionally, I developed a Heroku-powered mobile app that determines suitable crops and predicts yield percentages based on user-provided location data, optimizing agricultural productivity by up to 75%.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-5.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>
-                                                    Buddy: AI Chatbot
-                                                    <a href="https://github.com/ankithas-09/AI-Chatbot" target="_blank" class="github-button">Github</a>
-                                                </h4>
-                                                <p>It is an intelligent conversational AI built with Next.js and React, using OpenAI’s models for accurate responses. It features Retrieval-Augmented Generation (RAG) to pull from a knowledge base, user login for personalized interactions, and a feedback mechanism for rating responses. Leveraging Pinecone for knowledge management and MongoDB for data storage, the application is efficiently deployed on Vercel.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>
-                                                    Car Make and Model Classification
-                                                    <a href="https://github.com/ankithas-09/Car-Make-and-Model-Prediction" target="_blank" class="github-button">Github</a>
-                                                </h4>
-                                                <p>Engineered a highly efficient machine learning model using Convolutional Neural Networks (CNNs) to analyze a vast dataset of car images, achieving precise prediction of car make and model. By implementing the Inception-v3 model, I attained a 92% accuracy rate, which facilitated the development of an advanced image recognition system for automotive applications.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="contact">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                            <div class="contact-row">
-                                                <i class="fa fa-phone"></i> +917619680294
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> s.ankitha0904@gmail.com
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="contact-form" method="POST" netlify action="/">
-                                            <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
-                                            </div>
-                                            <div class="input-field">
-                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
-                                            </div>
-                                            <button class="btn" type="submit">Submit</button>
-                                        </form>
-                                        <div id="form-messages" class="mt-3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="https://www.linkedin.com/in/ankithasuresh/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/ankithas-09" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://leetcode.com/u/Ankithas_09/" target="_blank" title="Leetcode">
-                        <img
-                            src="images/leetcode.png"
-                            alt="My leetcode profile"
-                            class="icon"
-                            />
-                    </a></li>
+    <!-- ===== SKILLS ===== -->
+    <div class="section animated-row" data-section="skills">
+      <div class="section-inner">
+        <div class="container-center">
+          <div class="section-title animate" data-animate="fadeInUp">
+            <span class="section-label">My Skills</span>
+            <h2>What I Work With</h2>
+          </div>
+          <div class="skills-grid animate" data-animate="fadeInUp">
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-code"></i>
+                <h5>Programming</h5>
+              </div>
+              <div class="skill-tags">
+                <span>Python</span>
+                <span>Java</span>
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+                <span>Bash</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-desktop"></i>
+                <h5>Frontend</h5>
+              </div>
+              <div class="skill-tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>HTML / CSS</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-server"></i>
+                <h5>Backend &amp; APIs</h5>
+              </div>
+              <div class="skill-tags">
+                <span>Node.js</span>
+                <span>FastAPI</span>
+                <span>Flask</span>
+                <span>gRPC</span>
+                <span>GraphQL</span>
+                <span>REST</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-cogs"></i>
+                <h5>AI / ML</h5>
+              </div>
+              <div class="skill-tags">
+                <span>LangChain</span>
+                <span>OpenAI API</span>
+                <span>Pinecone</span>
+                <span>RAG</span>
+                <span>Vector Databases</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-database"></i>
+                <h5>Databases</h5>
+              </div>
+              <div class="skill-tags">
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>MySQL</span>
+                <span>Redis</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-cloud"></i>
+                <h5>Cloud &amp; Infra</h5>
+              </div>
+              <div class="skill-tags">
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>Terraform</span>
+                <span>GitHub Actions</span>
+                <span>GitLab CI/CD</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-cat-header">
+                <i class="fa fa-wrench"></i>
+                <h5>Testing &amp; Tooling</h5>
+              </div>
+              <div class="skill-tags">
+                <span>Pytest</span>
+                <span>JUnit</span>
+                <span>Postman</span>
+                <span>Apache Kafka</span>
+                <span>CloudWatch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <div class="section animated-row" data-section="experience">
+      <div class="section-inner">
+        <div class="container-center">
+          <div class="section-title animate" data-animate="fadeInUp">
+            <span class="section-label">Work Experience</span>
+            <h2>Career Journey</h2>
+          </div>
+          <div class="timeline">
+
+            <div class="timeline-item animate" data-animate="fadeInUp">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <div>
+                    <h3><a href="https://headstarter.co/" target="_blank">Headstarter</a></h3>
+                    <p class="tl-role">Software Engineer Resident <span class="tl-type">(After Fellowship)</span></p>
+                  </div>
+                  <span class="tl-date">June 2024 – Dec 2025</span>
+                </div>
+                <ul class="tl-bullets">
+                  <li>Architected a multi-stage RAG pipeline (LangChain + Pinecone) cutting query failure rate from <strong>18% → 4%</strong> across a 50K-document knowledge base serving <strong>500+ daily users</strong>.</li>
+                  <li>Built an AI code review assistant (React, Node.js, OpenAI) processing <strong>1,000+ PRs</strong> with a <strong>78% developer acceptance rate</strong> on suggested changes.</li>
+                  <li>Optimized RAG query latency from <strong>3.2 s → 800 ms</strong> p95 via async retrieval, result caching, and request batching at <strong>99.5% uptime</strong>.</li>
+                  <li>Built a multi-step LLM agent using OpenAI tool-calling that reduced manual triage time by <strong>60%</strong>.</li>
                 </ul>
+                <div class="tl-tags">
+                  <span>Python</span><span>Node.js</span><span>React</span><span>LangChain</span><span>Pinecone</span><span>OpenAI</span>
+                </div>
+              </div>
             </div>
+
+            <div class="timeline-item animate" data-animate="fadeInUp">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <div>
+                    <h3><a href="https://www.hpe.com/" target="_blank">Hewlett Packard Enterprise</a></h3>
+                    <p class="tl-role">Software Engineer</p>
+                  </div>
+                  <span class="tl-date">Sept 2021 – July 2023</span>
+                </div>
+                <ul class="tl-bullets">
+                  <li>Engineered event-driven failure detection service cutting cluster recovery time by <strong>98%</strong> (12 min → 14 s), directly reducing customer-facing downtime.</li>
+                  <li>Built unified CLI tool for cluster operators replacing 4 ad-hoc scripts and cutting average operator task time by <strong>35%</strong>.</li>
+                  <li>Developed cluster monitoring dashboard across <strong>200+ clusters</strong>, reducing time to identify degraded nodes from 45 min → under 2 min.</li>
+                  <li>Rewrote disaster-recovery validation suite with concurrent execution across 50+ clusters, cutting runtime from <strong>5 h → 55 min</strong>.</li>
+                </ul>
+                <div class="tl-tags">
+                  <span>Java</span><span>Python</span><span>REST APIs</span><span>Docker</span><span>Kubernetes</span><span>Ansible</span><span>Terraform</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item animate" data-animate="fadeInUp">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <div>
+                    <h3><a href="https://www.hpe.com/" target="_blank">Hewlett Packard Enterprise</a></h3>
+                    <p class="tl-role">R&amp;D Engineer Intern</p>
+                  </div>
+                  <span class="tl-date">Feb 2021 – Aug 2021</span>
+                </div>
+                <ul class="tl-bullets">
+                  <li>Built Python + Ansible installation pipeline that ran prerequisite checks, auto-remediated failing conditions, and reduced deployment time from <strong>1–2 h → under 15 min</strong>.</li>
+                  <li>Diagnosed and fixed a concurrency bug silently inflating MTTR across <strong>50+ clusters</strong>, reducing incident recovery from 25 min → 10 min.</li>
+                  <li>Contributed health-check and configuration validation modules replacing <strong>4 h of manual cluster setup</strong> with a 25-min automated run.</li>
+                </ul>
+                <div class="tl-tags">
+                  <span>Python</span><span>Ansible</span><span>Prometheus</span><span>Grafana</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-    </div>  
+      </div>
+    </div>
 
-    <script src="js/jquery.js"></script>
+    <!-- ===== PROJECTS ===== -->
+    <div class="section animated-row" data-section="projects">
+      <div class="section-inner">
+        <div class="container-center">
+          <div class="section-title animate" data-animate="fadeInUp">
+            <span class="section-label">My Work</span>
+            <h2>Featured Projects</h2>
+          </div>
+          <div class="projects-grid animate" data-animate="fadeInUp">
 
-    <script src="js/bootstrap.min.js"></script>
+            <div class="project-card" style="--card-accent: #00d4aa;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/kreede-customers" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                    <a href="https://kreede-customers.netlify.app/" target="_blank" title="Live Demo"><i class="fa fa-external-link"></i></a>
+                  </div>
+                </div>
+                <h4>Kreede</h4>
+                <p class="proj-subtitle">Smart Court Booking System</p>
+              </div>
+              <p class="proj-desc">Full-stack court booking and customer management platform for a live pickleball business. Real-time slot scheduling for 200+ users, eliminating manual booking entirely.</p>
+              <div class="proj-tags">
+                <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>REST API</span>
+              </div>
+            </div>
 
-    <script src="js/fullpage.min.js"></script>
+            <div class="project-card" style="--card-accent: #818cf8;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/Algocards" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                    <a href="https://algocards-one.vercel.app/" target="_blank" title="Live Demo"><i class="fa fa-external-link"></i></a>
+                  </div>
+                </div>
+                <h4>Algocards</h4>
+                <p class="proj-subtitle">AI-Powered DSA Flashcards</p>
+              </div>
+              <p class="proj-desc">AI-powered platform for mastering Data Structures &amp; Algorithms. Features curated flashcard sets (Basic DSA, Algorithms, Advanced DSA) and interactive assessments.</p>
+              <div class="proj-tags">
+                <span>Next.js</span><span>React</span><span>OpenAI</span><span>TypeScript</span>
+              </div>
+            </div>
 
-    <script src="js/scrolloverflow.js"></script>
+            <div class="project-card" style="--card-accent: #f59e0b;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/US-Election-Sentiment" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                  </div>
+                </div>
+                <h4>US Election Sentiment Analysis</h4>
+                <p class="proj-subtitle">Real-Time NLP Pipeline</p>
+              </div>
+              <p class="proj-desc">Real-time sentiment analysis pipeline ingesting and classifying 10,000+ live social media posts on the 2024 US election, surfacing results on a live dashboard.</p>
+              <div class="proj-tags">
+                <span>Python</span><span>NLP</span><span>Streaming</span><span>Dashboard</span>
+              </div>
+            </div>
 
-    <script src="js/owl.carousel.min.js"></script>
+            <div class="project-card" style="--card-accent: #60a5fa;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/Placement-Management-System" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                  </div>
+                </div>
+                <h4>Placement Management System</h4>
+                <p class="proj-subtitle">University Placement Portal</p>
+              </div>
+              <p class="proj-desc">Placement platform used by 400+ students at JSS University. Role-based access, application tracking, and recruiter dashboards actively used across placement season.</p>
+              <div class="proj-tags">
+                <span>Full-Stack</span><span>Role-Based Auth</span><span>PostgreSQL</span>
+              </div>
+            </div>
 
-    <script src="js/jquery.inview.min.js"></script>
+            <div class="project-card" style="--card-accent: #f472b6;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/ZenMode" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                  </div>
+                </div>
+                <h4>ZenMode</h4>
+                <p class="proj-subtitle">Mood-Adaptive Video Feed</p>
+              </div>
+              <p class="proj-desc">Instagram-like app with a mood-based video feed (MoodFeed). Users select their current mood and receive a dynamically personalized video experience aligned to their emotional state.</p>
+              <div class="proj-tags">
+                <span>Next.js</span><span>React</span><span>AI</span><span>TypeScript</span>
+              </div>
+            </div>
 
-    <script src="js/form.js"></script>
+            <div class="project-card" style="--card-accent: #34d399;">
+              <div class="project-card-top">
+                <div class="proj-icons">
+                  <i class="fa fa-folder-open"></i>
+                  <div class="proj-links">
+                    <a href="https://github.com/ankithas-09/Car-Make-and-Model-Prediction" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                  </div>
+                </div>
+                <h4>Car Make &amp; Model Prediction</h4>
+                <p class="proj-subtitle">Computer Vision / Deep Learning</p>
+              </div>
+              <p class="proj-desc">CNN-based image recognition model using Inception-v3 to predict car make and model from images. Achieved 92% accuracy on a large automotive image dataset.</p>
+              <div class="proj-tags">
+                <span>Python</span><span>CNN</span><span>Inception-v3</span><span>TensorFlow</span>
+              </div>
+            </div>
 
-    <script src="js/custom.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- ===== CONTACT ===== -->
+    <div class="section animated-row" data-section="contact">
+      <div class="section-inner">
+        <div class="container-center">
+          <div class="section-title animate" data-animate="fadeInUp">
+            <span class="section-label">Contact</span>
+            <h2>Get In Touch</h2>
+          </div>
+          <div class="contact-grid animate" data-animate="fadeInUp">
 
-  </body>
+            <div class="contact-info">
+              <p class="contact-tagline">
+                Have an opportunity or just want to say hi?<br>My inbox is always open.
+              </p>
+              <div class="contact-detail">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:s.ankitha0904@gmail.com">s.ankitha0904@gmail.com</a>
+              </div>
+              <div class="contact-detail">
+                <i class="fa fa-phone"></i>
+                <span>+91 761 968 0294</span>
+              </div>
+              <div class="contact-social-links">
+                <a href="https://www.linkedin.com/in/ankithasuresh/" target="_blank">
+                  <i class="fa fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/ankithas-09" target="_blank">
+                  <i class="fa fa-github"></i> GitHub
+                </a>
+                <a href="https://leetcode.com/u/Ankithas_09/" target="_blank">
+                  <img src="images/leetcode.png" alt="LeetCode" class="lc-icon-sm"> LeetCode
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form-box">
+              <!--
+                To activate email delivery:
+                1. Sign up free at https://formspree.io
+                2. Create a new form pointing to s.ankitha0904@gmail.com
+                3. Replace YOUR_FORM_ID in the action below with your Formspree form ID
+              -->
+              <form id="contact-form" action="https://formspree.io/f/mwvypwar" method="POST">
+                <input type="hidden" name="_replyto" id="reply-to-field">
+                <div class="form-group">
+                  <input type="text" name="name" id="name" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" id="email" class="form-input" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" id="subject" class="form-input" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-input form-textarea" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-accent btn-full" id="submit-btn">
+                  Send Message &nbsp;<i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
+              <div id="form-messages" class="form-status"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end #fullpage -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/fullpage.min.js"></script>
+  <script src="js/scrolloverflow.js"></script>
+  <script src="js/jquery.inview.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/form.js"></script>
+
+</body>
 </html>
-
-
-

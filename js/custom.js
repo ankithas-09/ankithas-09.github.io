@@ -48,7 +48,7 @@
         anchors: ['homepage', 'about', 'skills', 'experience', 'projects', 'contact'],
         menu: '#nav',
         navigation: true,
-        navigationPosition: 'right',
+        navigationPosition: 'left',
         scrollOverflow: true,
         responsiveWidth: 768,
         responsiveHeight: 500,
